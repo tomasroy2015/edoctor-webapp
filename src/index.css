@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.table{
+  margin-bottom: 0px;
+}
+table > thead{
+  background-color: #337ab7;
+  color: #fff;
+}
+.modal.in .modal-dialog{
+  top:15%;
+}
+.edit-button{
+  cursor: pointer;
+}
+.edit-button:hover{
+-webkit-transition: all 500ms ease-in;
+-webkit-transform: scale(1.5); 
+-ms-transition: all 500ms ease-in;
+-ms-transform: scale(1.5); 
+-moz-transition: all 500ms ease-in;
+-moz-transform: scale(1.5);
+transition: all 500ms ease-in;
+transform: scale(1.5);  
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li >a{
+  z-index: 100000;
+}
